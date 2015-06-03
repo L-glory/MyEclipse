@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	
+	<package name="Glory" namespace="/lry" extends="struts-default">
+		<!-- <global-results>
+			<result name="message">/WEB-INF/page/message.jsp</result>
+			<result name="error">/WEB-INF/page/error.jsp</result>
+			<result name="join">/WEB-INF/page/join_suc.jsp</result>
+		</global-results> -->
+		
+		<action name="login" class="cn.lry.business.login.LoginAction" method="login">
+			<result name="stu">/WEB-INF/page/stu_index.jsp</result>
+			<result name="err">/WEB-INF/page/error.jsp</result>
+		</action>
+	</package>
+
+
+</struts>

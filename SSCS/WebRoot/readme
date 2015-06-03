@@ -1,0 +1,22 @@
+1、搭建开发环境
+	dom4j开发包
+	Jstl开发包
+	BeanUtils开发包
+	log4j开发包
+	struts2开发包
+
+2、创建组织程序包
+	org.lry.bean
+	org.lry.dao
+	org.lry.dao.impl
+	org.lry.service
+	org.lry.service.impl
+	org.lry.web.controller
+	org.lry.web.UI
+	org.lry.utils
+	org.lry.junit
+
+
+
+3、创建XML文件
+

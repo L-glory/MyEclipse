@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SSCS"
+  id="myeclipse.1431087090187"
+  context-root="/SSCS"
+  j2ee-spec="6.0"
+  archive="SSCS.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
